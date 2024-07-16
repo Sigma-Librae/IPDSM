@@ -1,0 +1,7 @@
+Names,value,dynamic,measured,domains,units
+CW,200,1,1,1,solid
+EAS,6000,1,1,1,solid
+RES,140,1,1,4,solid
+NER_shale,0,1,1,4,solid
+TM,0,0,0,1,solid
+NER,0,0,0,1,solid

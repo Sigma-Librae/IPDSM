@@ -1,0 +1,7 @@
+Names,value,dynamic,measured,domains,units
+EAS,140,1,1,2,solid
+RES,140,1,1,10,solid
+NER_shale,0,0,1,8,solid
+TM-OH,0,1,1,1,solid
+TM-AC,0,1,1,1,solid
+NER,0,0,0,1,solid

@@ -1,0 +1,10 @@
+Names,InitValue,fitting,trans,dist,b,source,shift,scaling
+a,0.0285610940895284,0,p,gamma,0.5,guess,0,1
+theta,0.3,0,d,beta,3,guess,0,1
+EAS,33.0914368650208,1,d,gamma,10,guess,0,1
+d,2.40900822765842e-18,0,log,normal,2,guess,0,1
+r,1e-05,0,d,gamma,1,guess,0,1
+RES,1125.05786199881,1,d,gamma,10,guess,0,1
+factor,0.569183831499329,0,d,beta,3,guess,0.5,1
+rho,1.1,0,d,normal,1,guess,0,1
+b,4.14162581677729,0,d,gamma,1,guess,0,1

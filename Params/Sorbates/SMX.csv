@@ -1,0 +1,4 @@
+Names,InitValue,fitting,trans,dist,b,source,shift,scaling
+k,0.1,1,d,beta,1,Guess,0,1
+K_f,25.9586200695489,0,d,gamma,20,Guess,0,1
+m,0.728290000110413,0,d,gamma,0.05,Guess,0,1

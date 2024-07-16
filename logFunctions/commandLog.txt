@@ -1,0 +1,109 @@
+16-Jul-2024 13:18:14 Starting Master with dataset 'data_TRI_ns_dalk'
+[Warning: Name is nonexistent or not a directory: C:\Users\Matthias\OneDrive\Desktop\Arbeit\Writing\Submission\IPDSM\IPDSM\models] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('path', 'C:\Program Files\MATLAB\R2023b\toolbox\matlab\general\path.m', 109)" style="font-weight:bold">path</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2023b\toolbox\matlab\general\path.m',109,0)">line 109</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('addpath>doPathAddition', 'C:\Program Files\MATLAB\R2023b\toolbox\matlab\general\addpath.m', 116)" style="font-weight:bold">addpath>doPathAddition</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2023b\toolbox\matlab\general\addpath.m',116,0)">line 116</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('addpath', 'C:\Program Files\MATLAB\R2023b\toolbox\matlab\general\addpath.m', 80)" style="font-weight:bold">addpath</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2023b\toolbox\matlab\general\addpath.m',80,0)">line 80</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Master', 'C:\Users\Matthias\OneDrive\Desktop\Arbeit\Writing\Submission\IPDSM\IPDSM\Master.m', 14)" style="font-weight:bold">Master</a> (<a href="matlab: opentoline('C:\Users\Matthias\OneDrive\Desktop\Arbeit\Writing\Submission\IPDSM\IPDSM\Master.m',14,0)">line 14</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('InitializeMaster', 'C:\Users\Matthias\OneDrive\Desktop\Arbeit\Writing\Submission\IPDSM\IPDSM\InitializeMaster.m', 159)" style="font-weight:bold">InitializeMaster</a> (<a href="matlab: opentoline('C:\Users\Matthias\OneDrive\Desktop\Arbeit\Writing\Submission\IPDSM\IPDSM\InitializeMaster.m',159,0)">line 159</a>)] 
+[Warning: Master run number 1 not successfull, the error meassage was:
+Unrecognized function or variable 'MDomWNER'.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('loadParams', 'C:\Users\Matthias\OneDrive\Desktop\Arbeit\Writing\Submission\IPDSM\IPDSM\helpers\loadParams.m', 9)" style="font-weight:bold">loadParams</a> (<a href="matlab: opentoline('C:\Users\Matthias\OneDrive\Desktop\Arbeit\Writing\Submission\IPDSM\IPDSM\helpers\loadParams.m',9,0)">line 9</a>)
+modelMeta = optMaster.model();
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Master', 'C:\Users\Matthias\OneDrive\Desktop\Arbeit\Writing\Submission\IPDSM\IPDSM\Master.m', 36)" style="font-weight:bold">Master</a> (<a href="matlab: opentoline('C:\Users\Matthias\OneDrive\Desktop\Arbeit\Writing\Submission\IPDSM\IPDSM\Master.m',36,0)">line 36</a>)
+[S,P,modelMeta] = loadParams(optMaster,loaded,dirs);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('InitializeMaster', 'C:\Users\Matthias\OneDrive\Desktop\Arbeit\Writing\Submission\IPDSM\IPDSM\InitializeMaster.m', 159)" style="font-weight:bold">InitializeMaster</a> (<a href="matlab: opentoline('C:\Users\Matthias\OneDrive\Desktop\Arbeit\Writing\Submission\IPDSM\IPDSM\InitializeMaster.m',159,0)">line 159</a>)
+    Master(xoptCells{1},xoptCells{2},xoptCells{3},xoptCells{4},xoptCells{5})] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('InitializeMaster', 'C:\Users\Matthias\OneDrive\Desktop\Arbeit\Writing\Submission\IPDSM\IPDSM\InitializeMaster.m', 161)" style="font-weight:bold">InitializeMaster</a> (<a href="matlab: opentoline('C:\Users\Matthias\OneDrive\Desktop\Arbeit\Writing\Submission\IPDSM\IPDSM\InitializeMaster.m',161,0)">line 161</a>)] 
+shutdown(-1)
+InitializeMaster
+16-Jul-2024 13:45:59 Starting Master with dataset 'data_TRI_ns_dalk'
+[Warning: Master run number 1 not successfull, the error meassage was:
+Error using <a href="matlab:matlab.internal.language.introspective.errorDocCallback('readtable')" style="font-weight:bold">readtable</a>
+Unable to find or open 'C:\Users\Matthias\OneDrive\Desktop\Arbeit\Writing\Submission\IPDSM\IPDSM/Params/MDomW_Params.csv'. Check
+the path and filename or file permissions.
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('loadParams', 'C:\Users\Matthias\OneDrive\Desktop\Arbeit\Writing\Submission\IPDSM\IPDSM\helpers\loadParams.m', 12)" style="font-weight:bold">loadParams</a> (<a href="matlab: opentoline('C:\Users\Matthias\OneDrive\Desktop\Arbeit\Writing\Submission\IPDSM\IPDSM\helpers\loadParams.m',12,0)">line 12</a>)
+Praw = readtable(sprintf('%s%s_Params.csv',dirs.params,modelMeta.table));
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Master', 'C:\Users\Matthias\OneDrive\Desktop\Arbeit\Writing\Submission\IPDSM\IPDSM\Master.m', 36)" style="font-weight:bold">Master</a> (<a href="matlab: opentoline('C:\Users\Matthias\OneDrive\Desktop\Arbeit\Writing\Submission\IPDSM\IPDSM\Master.m',36,0)">line 36</a>)
+[S,P,modelMeta] = loadParams(optMaster,loaded,dirs);
+
+Error in <a href="matlab:matlab.internal.language.introspective.errorDocCallback('InitializeMaster', 'C:\Users\Matthias\OneDrive\Desktop\Arbeit\Writing\Submission\IPDSM\IPDSM\InitializeMaster.m', 159)" style="font-weight:bold">InitializeMaster</a> (<a href="matlab: opentoline('C:\Users\Matthias\OneDrive\Desktop\Arbeit\Writing\Submission\IPDSM\IPDSM\InitializeMaster.m',159,0)">line 159</a>)
+    Master(xoptCells{1},xoptCells{2},xoptCells{3},xoptCells{4},xoptCells{5})] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('InitializeMaster', 'C:\Users\Matthias\OneDrive\Desktop\Arbeit\Writing\Submission\IPDSM\IPDSM\InitializeMaster.m', 161)" style="font-weight:bold">InitializeMaster</a> (<a href="matlab: opentoline('C:\Users\Matthias\OneDrive\Desktop\Arbeit\Writing\Submission\IPDSM\IPDSM\InitializeMaster.m',161,0)">line 161</a>)] 
+InitializeMaster
+16-Jul-2024 13:47:41 Starting Master with dataset 'data_TRI_ns_dalk'
+16-Jul-2024 13:47:42 Starting bootstrapping...
+16-Jul-2024 13:48:24 The function "bootstrapping" is 0% done
+ It will probably be finished by 16-Jul-2024 19:35:10
+{Operation terminated by user during <a href="matlab:matlab.internal.language.introspective.errorDocCallback('odeMDomCW')" style="font-weight:bold">odeMDomCW</a>
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ode15s>@(t,y)ode(t,y,odeArgs{:})', 'C:\Program Files\MATLAB\R2023b\toolbox\matlab\funfun\ode15s.m', 459)" style="font-weight:bold">ode15s>@(t,y)ode(t,y,odeArgs{:})</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2023b\toolbox\matlab\funfun\ode15s.m',459,0)">line 459</a>)
+    ode = @(t,y) ode(t,y,odeArgs{:});
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('odenumjac', 'C:\Program Files\MATLAB\R2023b\toolbox\matlab\funfun\private\odenumjac.m', 135)" style="font-weight:bold">odenumjac</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2023b\toolbox\matlab\funfun\private\odenumjac.m',135,0)">line 135</a>)
+            Fdel(:,j) = F(Fargs{:});
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ode15s', 'C:\Program Files\MATLAB\R2023b\toolbox\matlab\funfun\ode15s.m', 614)" style="font-weight:bold">ode15s</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2023b\toolbox\matlab\funfun\ode15s.m',614,0)">line 614</a>)
+                            [dfdy,Joptions.fac,nF] = odenumjac(ode, ...
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('odeStarter', 'C:\Users\Matthias\OneDrive\Desktop\Arbeit\Writing\Submission\IPDSM\IPDSM\helpers\odeStarter.m', 82)" style="font-weight:bold">odeStarter</a> (<a href="matlab: opentoline('C:\Users\Matthias\OneDrive\Desktop\Arbeit\Writing\Submission\IPDSM\IPDSM\helpers\odeStarter.m',82,0)">line 82</a>)
+[t,A] = ode15s(modelMeta.ode,tFull,A0,'',p,S,modelMeta,now);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('fitODE', 'C:\Users\Matthias\OneDrive\Desktop\Arbeit\Writing\Submission\IPDSM\IPDSM\helpers\fitODE.m', 52)" style="font-weight:bold">fitODE</a> (<a href="matlab: opentoline('C:\Users\Matthias\OneDrive\Desktop\Arbeit\Writing\Submission\IPDSM\IPDSM\helpers\fitODE.m',52,0)">line 52</a>)
+[~,A] = modelMeta.starter(tFull,p,modelMeta,S,dirs);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('calib>@(input)fitODE(input,data,S,tFull,tObs,P,optMaster,modelMeta,weights,dirs)', 'C:\Users\Matthias\OneDrive\Desktop\Arbeit\Writing\Submission\IPDSM\IPDSM\helpers\calib.m', 50)" style="font-weight:bold">calib>@(input)fitODE(input,data,S,tFull,tObs,P,optMaster,modelMeta,weights,dirs)</a> (<a href="matlab: opentoline('C:\Users\Matthias\OneDrive\Desktop\Arbeit\Writing\Submission\IPDSM\IPDSM\helpers\calib.m',50,0)">line 50</a>)
+  obj_fun = @(input)fitODE(input,data,S,tFull,tObs,P,optMaster,modelMeta,weights,dirs);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('surrogateopt>expensiveModel', 'C:\Program Files\MATLAB\R2023b\toolbox\globaloptim\globaloptim\surrogateopt.m', 423)" style="font-weight:bold">surrogateopt>expensiveModel</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2023b\toolbox\globaloptim\globaloptim\surrogateopt.m',423,0)">line 423</a>)
+temp = feval(objconstr,x);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('surrogateopt>@(x)expensiveModel(x,objfun)', 'C:\Program Files\MATLAB\R2023b\toolbox\globaloptim\globaloptim\surrogateopt.m', 404)" style="font-weight:bold">surrogateopt>@(x)expensiveModel(x,objfun)</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2023b\toolbox\globaloptim\globaloptim\surrogateopt.m',404,0)">line 404</a>)
+expensive = struct('model', @(x) expensiveModel(x,objfun), ...
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('globaloptim.bmo.ModelManager>conditionalModelEvaluator', 'C:\Program Files\MATLAB\R2023b\toolbox\globaloptim\+globaloptim\+bmo\ModelManager.m', 431)" style="font-weight:bold">globaloptim.bmo.ModelManager>conditionalModelEvaluator</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2023b\toolbox\globaloptim\+globaloptim\+bmo\ModelManager.m',431,0)">line 431</a>)
+out = feval(expensiveModel,Xin);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('globaloptim.bmo.ModelManager>@(trial)conditionalModelEvaluator(trial,output,varName,expensive.model,expensive.response)', 'C:\Program Files\MATLAB\R2023b\toolbox\globaloptim\+globaloptim\+bmo\ModelManager.m', 64)" style="font-weight:bold">globaloptim.bmo.ModelManager>@(trial)conditionalModelEvaluator(trial,output,varName,expensive.model,expensive.response)</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2023b\toolbox\globaloptim\+globaloptim\+bmo\ModelManager.m',64,0)">line 64</a>)
+            self.combinedModel = @(trial) conditionalModelEvaluator(trial, output, ...
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('globaloptim.bmo.ModelManager/evaluateLocal', 'C:\Program Files\MATLAB\R2023b\toolbox\globaloptim\+globaloptim\+bmo\ModelManager.m', 290)" style="font-weight:bold">globaloptim.bmo.ModelManager/evaluateLocal</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2023b\toolbox\globaloptim\+globaloptim\+bmo\ModelManager.m',290,0)">line 290</a>)
+            self.pendingTrials(end).output = self.combinedModel(nextTrial);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('globaloptim.bmo.ModelManager/evaluate', 'C:\Program Files\MATLAB\R2023b\toolbox\globaloptim\+globaloptim\+bmo\ModelManager.m', 113)" style="font-weight:bold">globaloptim.bmo.ModelManager/evaluate</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2023b\toolbox\globaloptim\+globaloptim\+bmo\ModelManager.m',113,0)">line 113</a>)
+                self.evaluateLocal(nextTrial);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('globaloptim.bmo.BlackboxModelOptimizer/optimize', 'C:\Program Files\MATLAB\R2023b\toolbox\globaloptim\+globaloptim\+bmo\BlackboxModelOptimizer.m', 164)" style="font-weight:bold">globaloptim.bmo.BlackboxModelOptimizer/optimize</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2023b\toolbox\globaloptim\+globaloptim\+bmo\BlackboxModelOptimizer.m',164,0)">line 164</a>)
+                        self.modelMgr.evaluate(nextTrial);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('surrogateopt', 'C:\Program Files\MATLAB\R2023b\toolbox\globaloptim\globaloptim\surrogateopt.m', 375)" style="font-weight:bold">surrogateopt</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2023b\toolbox\globaloptim\globaloptim\surrogateopt.m',375,0)">line 375</a>)
+controller = controller.optimize();
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('calib', 'C:\Users\Matthias\OneDrive\Desktop\Arbeit\Writing\Submission\IPDSM\IPDSM\helpers\calib.m', 89)" style="font-weight:bold">calib</a> (<a href="matlab: opentoline('C:\Users\Matthias\OneDrive\Desktop\Arbeit\Writing\Submission\IPDSM\IPDSM\helpers\calib.m',89,0)">line 89</a>)
+      [solNorm,val,~,~,obj] = surrogateopt(problemSurrogate);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('bootstrapping', 'C:\Users\Matthias\OneDrive\Desktop\Arbeit\Writing\Submission\IPDSM\IPDSM\Boot\bootstrapping.m', 42)" style="font-weight:bold">bootstrapping</a> (<a href="matlab: opentoline('C:\Users\Matthias\OneDrive\Desktop\Arbeit\Writing\Submission\IPDSM\IPDSM\Boot\bootstrapping.m',42,0)">line 42</a>)
+  [sol,~] = calib(optMaster, optGlob,optMulti,optSur,...
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('initBoot', 'C:\Users\Matthias\OneDrive\Desktop\Arbeit\Writing\Submission\IPDSM\IPDSM\Boot\initBoot.m', 197)" style="font-weight:bold">initBoot</a> (<a href="matlab: opentoline('C:\Users\Matthias\OneDrive\Desktop\Arbeit\Writing\Submission\IPDSM\IPDSM\Boot\initBoot.m',197,0)">line 197</a>)
+  [weights,p] = bootstrapping(optMaster,optGlob,optMulti,optSur,data,S,...
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Master', 'C:\Users\Matthias\OneDrive\Desktop\Arbeit\Writing\Submission\IPDSM\IPDSM\Master.m', 128)" style="font-weight:bold">Master</a> (<a href="matlab: opentoline('C:\Users\Matthias\OneDrive\Desktop\Arbeit\Writing\Submission\IPDSM\IPDSM\Master.m',128,0)">line 128</a>)
+  [bootTable,bootW,bootparam] = initBoot(optMaster,optGlob,optMulti,optSur,loaded.data,S,P,modelMeta,loaded.tFull,loaded.tObs,dirs); %#ok<ASGLU>
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('InitializeMaster', 'C:\Users\Matthias\OneDrive\Desktop\Arbeit\Writing\Submission\IPDSM\IPDSM\InitializeMaster.m', 159)" style="font-weight:bold">InitializeMaster</a> (<a href="matlab: opentoline('C:\Users\Matthias\OneDrive\Desktop\Arbeit\Writing\Submission\IPDSM\IPDSM\InitializeMaster.m',159,0)">line 159</a>)
+    Master(xoptCells{1},xoptCells{2},xoptCells{3},xoptCells{4},xoptCells{5})
+} 
+InitializeMaster
+16-Jul-2024 13:48:45 Starting Master with dataset 'data_TRI_ns_dalk'
+16-Jul-2024 13:48:45 Starting calibration of type "surrogate"...
+16-Jul-2024 13:49:28 Calibration finished after 44 seconds
+Mass balance is balanced
+
+16-Jul-2024 13:49:31 Master finished successfully
+

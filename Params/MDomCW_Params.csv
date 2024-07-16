@@ -1,0 +1,11 @@
+Names,InitValue,fitting,trans,dist,b,source,shift,scaling
+a,0.2,1,p,gamma,1,guess,0,1
+theta,2,0,d,gamma,3,guess,0,1
+EAS,11,1,d,gamma,7,guess,0,1
+d,1E-11,1,log,normal,1,guess,0,1
+r,0.00001,0,d,gamma,1,guess,0,1
+RES,0,1,d,gamma,5,guess,0,1
+factor ,1.5,1,d,normal,0.2,guess,0,1
+rho,1,0,d,normal,1,guess,0,1
+CW,335,1,d,gamma,1,guess,0,1
+b,1,0,d,gamma,1,guess,0,1
